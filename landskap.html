@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="assets/css/album.css">
+    <link rel="stylesheet" href="assets/css/default.css">
+    <link rel="stylesheet" href="assets/css/head.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="page" id="bg1">
+      <header>
+        <a href="#bg1" class="smooth-scroll">Hem</a>
+        <a href="#bg2" class="smooth-scroll">Album</a>
+        <a href="#">Om oss</a>
+        <a href="mailto:fotouf@gmail.com">kontakt</a>
+      </header>
+      <div class="photobox">
+        <h1>Landskap</h1>
+        <p>Fota UF erbjuder professionella bilder som förevigar de viktigaste ögonblicken för både företag och privatpersoner. Foton har förmågan att berätta historier och att utstråla unika känslor. Vi hjälper företagen att reformera sin estetiska karisma och vi hjälper privatpersoner att bevara de bästa stunderna.</p>
+
+        <div>
+          <img onclick="view('landscape/fisher')" src="assets/img/landscape/fisher.jpg">
+          <img onclick="view('landscape/birch')" src="assets/img/landscape/birch.jpg">
+          <img onclick="view('landscape/jungle')" src="assets/img/landscape/jungle.jpg">
+        </div>
+      </div>
+    </div>
+    <div onclick="view()" id="overlay">
+      <img id="popup"></img>
+    </div>
+
+
+    <script type="text/javascript" src="assets/js/view.js"></script>
+  </body>
+</html>

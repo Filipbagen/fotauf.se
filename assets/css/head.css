@@ -1,0 +1,22 @@
+header {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin: 0;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: calc(100vw - 40px); 
+}
+
+header a {
+  padding: 20px;
+  margin: 0;
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+
+header a:hover {
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 100px
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
