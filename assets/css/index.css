@@ -101,6 +101,30 @@
   transform: rotate(-8deg) scale(1) translateX(-40px);
 }
 
+.socials {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 40px;
+}
+
+.socials a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #000;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.socials img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+}
+
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
   .textbox {
     margin: 0;
