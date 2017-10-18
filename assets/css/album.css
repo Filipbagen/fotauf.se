@@ -34,6 +34,11 @@
   transition: 0.2s;
 }
 
+.photobox img.portrait {
+  height: 300px;
+  width: auto;
+}
+
 .photobox img:hover {
   transform: scale(1.05);
   cursor: pointer;
