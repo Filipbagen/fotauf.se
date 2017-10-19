@@ -3,11 +3,11 @@
 }
 
 .page#bg1 {
-  background-image: url("../img/landscape/mountain.jpg");
+  background-image: url("../img/background/mountain.jpg");
 }
 
 .page#bg2 {
-  background-image: url("../img/city/sanfran.jpg");
+  background-image: url("../img/background/sanfran.jpg");
   /*filter: blur(10px);*/
 
   display: flex;
