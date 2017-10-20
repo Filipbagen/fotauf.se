@@ -3,11 +3,11 @@
 }
 
 .page#bg1 {
-  background-image: url("../img/landscape/mountain.jpg");
+  background-image: url("../img/background/mountain.jpg");
 }
 
 .page#bg2 {
-  background-image: url("../img/city/sanfran.jpg");
+  background-image: url("../img/background/sanfran.jpg");
   /*filter: blur(10px);*/
 
   display: flex;
@@ -117,6 +117,11 @@
   color: #000;
   padding: 10px;
   background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s;
+}
+
+.socials a:hover {
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 .socials img {
