@@ -36,8 +36,15 @@
 }
 
 .textbox p {
-  max-width: 700px;
   padding: 20px;
+}
+
+.page#bg3 {
+  align-items: center;
+}
+
+#bg3 .textbox {
+  max-width: 700px;
 }
 
 #bg3 .textbox p {
