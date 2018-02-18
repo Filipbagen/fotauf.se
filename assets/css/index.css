@@ -3,31 +3,54 @@
 }
 
 .page#bg1 {
-  background-image: url("../img/background/mountain.jpg");
+  background-image: url("../img/background/mountain2.jpg");
+  align-items: center;
 }
 
 .page#bg2 {
-  background-image: url("../img/background/sanfran.jpg");
+  background-image: url("../img/background/vasteras.jpg");
   /*filter: blur(10px);*/
 
   display: flex;
   justify-content: center;
 }
 
+.page#bg3 {
+  background-image: url("../img/background/hands.jpg");
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  margin-top: 50px;
+}
+
 .textbox {
-  padding: 50px;
-  margin: 0 50px;
+  /* padding: ; */
+  margin: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .textbox h1 {
-  text-align: left;
+  text-align: center;
 }
 
 .textbox p {
   max-width: 700px;
-  background-color: rgba(255, 255, 255, 0.5);
   padding: 20px;
 }
+
+#bg3 .textbox p {
+  margin: 0;
+}
+
+#bg3 .textbox p:first-of-type {
+  padding-bottom: 0;
+}
+
+#bg3 .textbox p:last-of-type {
+}
+
 
 #postacardContainer {
   display: flex;
@@ -105,7 +128,7 @@
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 40px;
+  margin: 40px 0;
 }
 
 .socials a {
@@ -131,9 +154,6 @@
 }
 
 @media only screen and (max-width: 700px), only screen and (max-device-width: 700px) {
-  .textbox {
-    margin: 0;
-  }
 
   .textbox h1 {
     text-align: center;

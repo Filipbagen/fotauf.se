@@ -1,8 +1,10 @@
-function view (name) {
+function view (name, text) {
   var width = window.innerWidth
+  // var ikeaText = 'Hejsan det har ar ikeas text'
 
   if (width > 500) {
     var imageElement = document.getElementById('popup')
+    // var textElement = document.getElementById('overlayText')
     var overlayElement = document.getElementById('overlay')
 
     if (name) {
@@ -21,5 +23,11 @@ function view (name) {
     } else {
       overlayElement.className = ''
     }
+    // if (text) {
+    //   if (text === 'ikea') {
+    //     textElement.innerHTML = 'test'
+    //     console.log(text)
+    //   }
+    // }
   }
 }
